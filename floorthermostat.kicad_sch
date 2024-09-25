@@ -2887,6 +2887,200 @@
 				)
 			)
 		)
+		(symbol "Sensor_Optical:LDR03"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -5.08 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LDR03"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+			)
+			(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
+				(at 4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "light dependent resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "light dependent photo resistor LDR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R*LDR*10x8.5mm*P7.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LDR03_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -4.064 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -2.286 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.286) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -4.064 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -2.286 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.762) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LDR03_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sensor_Temperature:DS18B20"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3849,6 +4043,12 @@
 		(uuid "9ae539e2-05cc-4512-8eac-74500ecb5d01")
 	)
 	(junction
+		(at 154.94 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba4d2128-76ee-4750-9ae8-a1a98bc7af4d")
+	)
+	(junction
 		(at 45.72 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3876,7 +4076,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 99.06) (xy 196.85 102.87)
+			(xy 219.71 106.68) (xy 219.71 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3946,7 +4146,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 91.44) (xy 200.66 91.44)
+			(xy 219.71 99.06) (xy 223.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4016,7 +4216,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 189.23 72.39)
+			(xy 210.82 80.01) (xy 212.09 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4026,7 +4226,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 72.39) (xy 175.26 72.39)
+			(xy 203.2 80.01) (xy 198.12 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4073,6 +4273,26 @@
 			(type default)
 		)
 		(uuid "5dcf8678-ed92-48a8-b159-b0809f19fb77")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d994a2-fc7b-4764-a8ea-deeed2910276")
+	)
+	(wire
+		(pts
+			(xy 154.94 110.49) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "647df42a-a355-494b-bdc1-0b8422ed4849")
 	)
 	(wire
 		(pts
@@ -4206,7 +4426,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 102.87) (xy 200.66 102.87)
+			(xy 219.71 110.49) (xy 223.52 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4236,7 +4456,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 167.64 81.28)
+			(xy 184.15 88.9) (xy 190.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4266,7 +4486,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 72.39) (xy 175.26 76.2)
+			(xy 198.12 80.01) (xy 198.12 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4516,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 93.98) (xy 196.85 93.98)
+			(xy 213.36 101.6) (xy 219.71 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4366,7 +4586,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 99.06) (xy 175.26 105.41)
+			(xy 198.12 106.68) (xy 198.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4376,7 +4596,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.36) (xy 175.26 93.98)
+			(xy 198.12 93.98) (xy 198.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4396,6 +4616,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 101.6) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec9b0c4-5fc9-4e13-bdb0-21bca58f7198")
+	)
+	(wire
+		(pts
 			(xy 128.27 62.23) (xy 135.89 62.23)
 		)
 		(stroke
@@ -4406,7 +4636,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 196.85 99.06)
+			(xy 213.36 106.68) (xy 219.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4416,7 +4646,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 72.39) (xy 189.23 68.58)
+			(xy 212.09 80.01) (xy 212.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4446,7 +4676,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 93.98) (xy 196.85 91.44)
+			(xy 219.71 101.6) (xy 219.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4536,7 +4766,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 81.28) (xy 153.67 81.28)
+			(xy 171.45 88.9) (xy 176.53 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4553,6 +4783,26 @@
 			(type default)
 		)
 		(uuid "f40891f2-0ffa-4f74-8436-e75c90ec8812")
+	)
+	(wire
+		(pts
+			(xy 154.94 99.06) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42d492b-57d3-4c4d-9d63-ebfc94cd8ddb")
+	)
+	(wire
+		(pts
+			(xy 154.94 86.36) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5319429-a511-44a2-b99b-4dd447788124")
 	)
 	(wire
 		(pts
@@ -4811,6 +5061,17 @@
 		)
 		(uuid "a2efc469-0e45-4e40-910b-d3943966416b")
 	)
+	(label "SENSOR_VN"
+		(at 142.24 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9716ecb-535c-4375-b868-45e4ab995427")
+	)
 	(label "MQTT"
 		(at 135.89 72.39 180)
 		(fields_autoplaced yes)
@@ -4834,7 +5095,7 @@
 		(uuid "b43355aa-292d-4d07-913c-e915902ca5ab")
 	)
 	(label "HEATER"
-		(at 148.59 81.28 0)
+		(at 171.45 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5118,7 +5379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 105.41 0)
+		(at 198.12 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5127,7 +5388,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f4db968-a89e-463d-ac11-3586ec132cd2")
 		(property "Reference" "#PWR01"
-			(at 175.26 111.76 0)
+			(at 198.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 110.49 0)
+			(at 198.12 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 105.41 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 105.41 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5423,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 105.41 0)
+			(at 198.12 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +6191,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 81.28 90)
+		(at 180.34 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5939,7 +6200,7 @@
 		(fields_autoplaced yes)
 		(uuid "631b650e-de9b-44d2-913e-cef6260d1ace")
 		(property "Reference" "R1"
-			(at 157.48 74.93 90)
+			(at 180.34 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +6208,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 157.48 77.47 90)
+			(at 180.34 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +6216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 83.058 90)
+			(at 180.34 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,7 +6225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 81.28 0)
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +6234,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 81.28 0)
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6132,7 +6393,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 200.66 102.87 0)
+		(at 223.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6141,7 +6402,7 @@
 		(fields_autoplaced yes)
 		(uuid "72ab3840-9094-4917-8eb5-bcd264e112f4")
 		(property "Reference" "H1"
-			(at 203.2 101.5999 0)
+			(at 226.06 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6411,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 203.2 104.1399 0)
+			(at 226.06 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +6420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 102.87 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6429,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 102.87 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,7 +6438,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 200.66 102.87 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,6 +6588,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 154.94 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7df6f6f1-2ce8-48ac-801f-53b3739fd58e")
+		(property "Reference" "#PWR021"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65321c20-4df0-45a0-b90d-bf6f7e422b8d")
+		)
+		(instances
+			(project "floorthermostat"
+				(path "/6553289a-9652-48f1-a0ec-39f237655367"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 149.86 45.72 90)
 		(unit 1)
@@ -6396,7 +6723,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 184.15 72.39 90)
+		(at 207.01 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6405,7 +6732,7 @@
 		(fields_autoplaced yes)
 		(uuid "851c8b4c-7dd8-4b16-87a7-c0b13e20c101")
 		(property "Reference" "R2"
-			(at 184.15 66.04 90)
+			(at 207.01 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6740,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 184.15 68.58 90)
+			(at 207.01 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 74.168 90)
+			(at 207.01 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 72.39 0)
+			(at 207.01 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6766,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 72.39 0)
+			(at 207.01 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,6 +6927,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9995d889-8e5e-4a39-a5a9-d4008fdb309f")
+		(property "Reference" "#PWR022"
+			(at 154.94 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ed7f3e7-da73-4997-b667-02231a9e7a84")
+		)
+		(instances
+			(project "floorthermostat"
+				(path "/6553289a-9652-48f1-a0ec-39f237655367"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 157.48 34.29 180)
 		(unit 1)
@@ -6669,7 +7062,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC549")
-		(at 172.72 81.28 0)
+		(at 195.58 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6678,7 +7071,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d1277f0-5eeb-4d3e-a633-011e2914e3bd")
 		(property "Reference" "Q1"
-			(at 177.8 80.0099 0)
+			(at 200.66 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +7080,7 @@
 			)
 		)
 		(property "Value" "BC549"
-			(at 177.8 82.5499 0)
+			(at 200.66 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +7089,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 177.8 83.185 0)
+			(at 200.66 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +7100,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 172.72 81.28 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +7110,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
-			(at 172.72 81.28 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,6 +7403,76 @@
 			(project "floorthermostat"
 				(path "/6553289a-9652-48f1-a0ec-39f237655367"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b361bd-48c8-4f2f-97cb-6f7d8013a90b")
+		(property "Reference" "R9"
+			(at 157.48 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 157.48 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.162 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8183ccf1-2b1e-4188-b61f-bb8dda796188")
+		)
+		(pin "2"
+			(uuid "6b4b2708-edb8-46b4-878d-0af3a3b25d6d")
+		)
+		(instances
+			(project "floorthermostat"
+				(path "/6553289a-9652-48f1-a0ec-39f237655367"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7351,7 +7814,7 @@
 	)
 	(symbol
 		(lib_id "Relay_SolidState:S202S02")
-		(at 182.88 96.52 0)
+		(at 205.74 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7360,7 +7823,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd69edef-fe51-4d6e-838a-4885cc4efe6b")
 		(property "Reference" "U2"
-			(at 182.88 87.63 0)
+			(at 205.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7831,7 @@
 			)
 		)
 		(property "Value" "S202S02"
-			(at 182.88 90.17 0)
+			(at 205.74 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7839,7 @@
 			)
 		)
 		(property "Footprint" "Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight"
-			(at 177.8 101.6 0)
+			(at 200.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7850,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02_e.pdf"
-			(at 182.88 96.52 0)
+			(at 205.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7860,7 @@
 			)
 		)
 		(property "Description" "Zero Cross Opto-Triac, Vdrm 600V, Ift 8mA, IT 8A"
-			(at 182.88 96.52 0)
+			(at 205.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7887,7 +8350,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 189.23 68.58 0)
+		(at 212.09 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7896,7 +8359,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecca786c-d039-4458-a8ff-8bcd73264598")
 		(property "Reference" "#PWR05"
-			(at 189.23 72.39 0)
+			(at 212.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,7 +8368,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 189.23 63.5 0)
+			(at 212.09 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +8376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 68.58 0)
+			(at 212.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +8385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 68.58 0)
+			(at 212.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7931,7 +8394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 68.58 0)
+			(at 212.09 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8096,7 +8559,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 200.66 91.44 0)
+		(at 223.52 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8105,7 +8568,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbbddac9-1782-4d08-b491-5c78fc185150")
 		(property "Reference" "H2"
-			(at 203.2 90.1699 0)
+			(at 226.06 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8114,7 +8577,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 203.2 92.7099 0)
+			(at 226.06 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,7 +8586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 91.44 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8132,7 +8595,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 91.44 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +8604,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 200.66 91.44 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,6 +8616,76 @@
 			(project "floorthermostat"
 				(path "/6553289a-9652-48f1-a0ec-39f237655367"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Optical:LDR03")
+		(at 154.94 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3d2da9-8e00-4dbe-a0a1-b0a63a681c3d")
+		(property "Reference" "R10"
+			(at 157.48 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LDR03"
+			(at 157.48 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OptoDevice:R_LDR_10x8.5mm_P7.6mm_Vertical"
+			(at 159.385 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.elektronica-componenten.nl/WebRoot/StoreNL/Shops/61422969/54F1/BA0C/C664/31B9/2173/C0A8/2AB9/2AEF/LDR03IMP.pdf"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "light dependent resistor"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d062386c-1940-4d4f-828b-b713e92561dd")
+		)
+		(pin "1"
+			(uuid "cb8452b8-a1cc-460c-b2d6-3e5db887c94c")
+		)
+		(instances
+			(project "floorthermostat"
+				(path "/6553289a-9652-48f1-a0ec-39f237655367"
+					(reference "R10")
 					(unit 1)
 				)
 			)
